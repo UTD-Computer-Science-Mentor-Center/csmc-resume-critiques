@@ -1,0 +1,32 @@
+@startuml
+' Basic Configuration
+skinparam monochrome true
+skinparam shadowing false
+autonumber
+
+actor "Professor Jason Smith" as boss
+actor "Pratik Bhusal" as pratik
+actor "Requester" as requester
+
+pratik -> boss: Send requester form
+activate boss
+
+boss -> requester: Notify form existance
+
+boss -> pratik: Send list of eligible mentors
+
+deactivate boss
+
+...Wait for requests...
+
+requester -> pratik: Complete Form
+
+...Wait for Pratik to have free time...
+
+group if [Requester eligible]
+    pratik -> pratik: Critique Resume
+
+    pratik -> requester: Send Critiqued Resume
+
+end
+@enduml

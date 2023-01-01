@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="482px" preserveAspectRatio="none" style="width:544px;height:482px;background:#FFFFFF;" version="1.1" viewBox="0 0 544 482" width="544px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="58.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="78" y="112.4297"/><rect fill="none" height="88.3984" style="stroke:#000000;stroke-width:1.5;" width="294" x="244.5" y="296.4375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="83" x2="83" y1="81.2969" y2="178.6953"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="83" x2="83" y1="178.6953" y2="219.5"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="83" x2="83" y1="219.5" y2="248.6328"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="83" x2="83" y1="248.6328" y2="289.4375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="83" x2="83" y1="289.4375" y2="401.8359"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="301.5" x2="301.5" y1="81.2969" y2="178.6953"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="301.5" x2="301.5" y1="178.6953" y2="219.5"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="301.5" x2="301.5" y1="219.5" y2="248.6328"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="301.5" x2="301.5" y1="248.6328" y2="289.4375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="301.5" x2="301.5" y1="289.4375" y2="401.8359"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="488.5" x2="488.5" y1="81.2969" y2="178.6953"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="488.5" x2="488.5" y1="178.6953" y2="219.5"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="488.5" x2="488.5" y1="219.5" y2="248.6328"/><line style="stroke:#383838;stroke-width:1.0;stroke-dasharray:1.0,4.0;" x1="488.5" x2="488.5" y1="248.6328" y2="289.4375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="488.5" x2="488.5" y1="289.4375" y2="401.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="5" y="77.9951">Professor Jason Smith</text><ellipse cx="83" cy="13.5" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M83,21.5 L83,48.5 M70,29.5 L96,29.5 M83,48.5 L70,63.5 M83,48.5 L96,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="5" y="413.8311">Professor Jason Smith</text><ellipse cx="83" cy="425.6328" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M83,433.6328 L83,460.6328 M70,441.6328 L96,441.6328 M83,460.6328 L70,475.6328 M83,460.6328 L96,475.6328 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="254.5" y="77.9951">Pratik Bhusal</text><ellipse cx="302" cy="13.5" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M302,21.5 L302,48.5 M289,29.5 L315,29.5 M302,48.5 L289,63.5 M302,48.5 L315,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="254.5" y="413.8311">Pratik Bhusal</text><ellipse cx="302" cy="425.6328" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M302,433.6328 L302,460.6328 M289,441.6328 L315,441.6328 M302,460.6328 L289,475.6328 M302,460.6328 L315,475.6328 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="449.5" y="77.9951">Requester</text><ellipse cx="489" cy="13.5" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M489,21.5 L489,48.5 M476,29.5 L502,29.5 M489,48.5 L476,63.5 M489,48.5 L502,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="449.5" y="413.8311">Requester</text><ellipse cx="489" cy="425.6328" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M489,433.6328 L489,460.6328 M476,441.6328 L502,441.6328 M489,460.6328 L476,475.6328 M489,460.6328 L502,475.6328 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#FFFFFF" height="58.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="78" y="112.4297"/><polygon fill="#181818" points="99,108.4297,89,112.4297,99,116.4297,95,112.4297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="93" x2="301" y1="112.4297" y2="112.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="105" y="107.3638">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="118" y="107.3638">Send requester form</text><polygon fill="#181818" points="477,137.5625,487,141.5625,477,145.5625,481,141.5625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="88" x2="483" y1="141.5625" y2="141.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="95" y="136.4966">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="108" y="136.4966">Notify form existance</text><polygon fill="#181818" points="290,166.6953,300,170.6953,290,174.6953,294,170.6953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="83" x2="296" y1="170.6953" y2="170.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="90" y="165.6294">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="103" y="165.6294">Send list of eligible mentors</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="237" y="202.9058">Wait for requests</text><polygon fill="#181818" points="313,236.6328,303,240.6328,313,244.6328,309,240.6328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="307" x2="488" y1="240.6328" y2="240.6328"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="319" y="235.5669">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="332" y="235.5669">Complete Form</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="195.5" y="272.8433">Wait for Pratik to have free time</text><path d="M244.5,296.4375 L304.5,296.4375 L304.5,303.5703 L294.5,313.5703 L244.5,313.5703 L244.5,296.4375 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="88.3984" style="stroke:#000000;stroke-width:1.5;" width="294" x="244.5" y="296.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="10" x="259.5" y="309.5044">if</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="127" x="319.5" y="308.6479">[Requester eligible]</text><line style="stroke:#181818;stroke-width:1.0;" x1="302" x2="344" y1="334.7031" y2="334.7031"/><line style="stroke:#181818;stroke-width:1.0;" x1="344" x2="344" y1="334.7031" y2="347.7031"/><line style="stroke:#181818;stroke-width:1.0;" x1="303" x2="344" y1="347.7031" y2="347.7031"/><polygon fill="#181818" points="313,343.7031,303,347.7031,313,351.7031,309,347.7031" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="309" y="329.6372">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="322" y="329.6372">Critique Resume</text><polygon fill="#181818" points="477,372.8359,487,376.8359,477,380.8359,481,376.8359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="302" x2="483" y1="376.8359" y2="376.8359"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="309" y="371.77">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="322" y="371.77">Send Critiqued Resume</text><!--MD5=[635acc6bfc73a67d143c4e30393b7dc8]
+@startuml
+' Basic Configuration
+skinparam monochrome true
+skinparam shadowing false
+autonumber
+
+actor "Professor Jason Smith" as boss
+actor "Pratik Bhusal" as pratik
+actor "Requester" as requester
+
+pratik -> boss: Send requester form
+activate boss
+
+boss -> requester: Notify form existance
+
+boss -> pratik: Send list of eligible mentors
+
+deactivate boss
+
+...Wait for requests...
+
+requester -> pratik: Complete Form
+
+...Wait for Pratik to have free time...
+
+group if [Requester eligible]
+    pratik -> pratik: Critique Resume
+
+    pratik -> requester: Send Critiqued Resume
+
+end
+@enduml
+
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+autonumber
+
+actor "Professor Jason Smith" as boss
+actor "Pratik Bhusal" as pratik
+actor "Requester" as requester
+
+pratik -> boss: Send requester form
+activate boss
+
+boss -> requester: Notify form existance
+
+boss -> pratik: Send list of eligible mentors
+
+deactivate boss
+
+...Wait for requests...
+
+requester -> pratik: Complete Form
+
+...Wait for Pratik to have free time...
+
+group if [Requester eligible]
+    pratik -> pratik: Critique Resume
+
+    pratik -> requester: Send Critiqued Resume
+
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 CDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

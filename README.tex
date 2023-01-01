@@ -1,0 +1,145 @@
+\documentclass[letterpaper, 12pt]{article}
+% \setlength{\parindent}{30pt}
+\usepackage{ifluatex}
+\usepackage{ifpdf}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry} % Page Margins
+% \usepackage{bookmark}
+\usepackage{svg}
+
+\usepackage{parskip}
+
+\ifluatex{}
+    \usepackage[luatex]{hyperref}
+
+\else\ifxetex{}
+    \usepackage[xetex]{hyperref}
+\else
+    \usepackage[pdftex]{hyperref}
+
+    % Enable correct encoding
+    \usepackage[utf8]{inputenc}
+\fi\fi
+\hypersetup{hidelinks}
+
+\overfullrule=2cm %To check for overfull \hbox
+
+
+% Configure Ordered Lists
+\usepackage{enumitem}
+\setlist[enumerate]{nosep,
+    label=\arabic*\char41,
+}
+
+% \usepackage{titlesec}
+% \titleformat{\section}
+%     % Section title format
+%     {\bfseries\large}
+%     % Prefix text
+%     {}
+%     % Space between prefix and section title
+%     {0pt}
+%     % Section title text
+%     {}
+%     % After section formatting
+%     [\vspace{-2ex}]
+
+\pagestyle{empty} % Remove Page Numbers
+
+\newcommand{\minCompleteFinalYearSemeterRequirement}{2}
+\newcommand{\currentBoss}{Jason Smith}
+\newcommand{\QA}[2]{\textit{#1}\medskip
+
+    #2\bigskip
+}
+\newcommand{\note}[1]{\textbf{Note:}~#1}
+
+\begin{document}
+
+\begin{center}
+    \bfseries\Large CSMC Resume Critique Program
+\end{center}
+
+\section{Disclaimer}\label{section:disclaimer}
+
+If at any point you provide your contact information outside the confines of
+this program, you are responsible for any messages and/or spam you
+receive.\label{section:disclaimer:spamMessages}
+
+\section{Problem Statement}
+
+The recent tech crash has made it difficult to:
+
+\begin{enumerate}
+    \item find internship and full-time opportunities.
+    \item compete with others for the same position.
+    \item provide a good first impression.
+\end{enumerate}
+
+Even when it does recover, the space will continue to be more competitive.
+
+\section{Mission Statement}
+
+The goal is to provide eligible current (and even former) mentors an opportunity
+to improve their resume and therefore provide a good first impression.
+
+\section{Participation Requirements}
+
+You are considered eligible to recieve a resume critique if and only if you meet
+at least 1 of the following:
+
+\begin{enumerate}
+    \item \textbf{Shift Leader}: You are a shift leader.
+    \item \textbf{Final Year}: You have worked at least
+        \minCompleteFinalYearSemeterRequirement{} complete semester(s) at the
+        CSMC, in your last year before graduating, \textit{and} not pursuing any
+        further education at the university
+    \item \textbf{Alum}: You graduated and have worked at least
+        \minCompleteFinalYearSemeterRequirement{} complete semester(s) at the
+        CSMC.
+\end{enumerate}
+
+\section{Opt-out Process}
+
+If you no longer wish to participate, please let Pratik Bhusal know.
+
+\section{Process Diagram}
+
+\begin{center}
+    \includesvg[inkscapelatex=false,width=0.75\linewidth]{./graphics/process}\label{fig:process}
+\end{center}
+
+\section{Potential/Frequently Asked Questions}
+
+\begin{enumerate}[leftmargin=*]
+    \item\QA%
+        {When is the best time to apply/participate?}
+        {As early as possible.}
+    \item\QA%
+        {How is my information stored?}
+        {%
+            It is stored on Google spreadsheets. Automatic data encryption is
+            desired, but still in the brainstorming phase.
+        }
+    \item\QA%
+        {What is the easiest way to contact Pratik Bhusal about the program?}
+        {%
+            There are two ways:
+
+            \begin{enumerate}
+                \item Create a new issue on the git repository associated with
+                    the program.
+                \item Send an email associated with this
+                    program.\\\textbf{Hint:} repository-name (at) fullname (dot) com
+
+            \end{enumerate}
+
+            If you have a general question applicable to more than just you,
+            prefer using option 1.
+
+            If you have a specific question that pertains only to your
+            situation, use option 2.
+        }
+\end{enumerate}
+
+\end{document}

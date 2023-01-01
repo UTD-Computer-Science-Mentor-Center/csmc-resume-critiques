@@ -1,0 +1,337 @@
+\documentclass[letterpaper, 10pt]{article}
+% \documentclass[letterpaper, 9pt]{extarticle}
+% Remove Page Numbers
+\pagestyle{empty}
+% no need for *.aux file nor section indexing nor any other files
+\nofiles{}
+
+\raggedbottom{}
+\raggedright{}
+
+% \usepackage{framed}
+% \usepackage{tocloft}
+% \usepackage[misc]{ifsym}
+% \usepackage{textcomp}
+
+% % Set font face
+% \usepackage{fontspec}
+
+% Check if using pdftex or xetex
+\usepackage{ifpdf, ifxetex}
+
+% Text Color package
+\usepackage[svgnames]{xcolor}
+
+% Enable correct encoding
+\ifpdf{}
+    \usepackage[utf8]{inputenc}
+\fi{}
+\usepackage[T1]{fontenc}
+
+% Enable favicons
+% If having issues with texlive, fontawesome, and/or xelatex, install the .otf
+% font at:
+    % $TEXDIR/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf
+% and enable the following package:
+    % \usepackage{fontspec}
+\usepackage{fontawesome}
+
+% Section Format Settings
+\usepackage{titlesec}
+\titleformat{\section}{\vspace{-2ex}\scshape\bfseries\raggedright\Large}{}{0pt}{}
+[\color{black}\titlerule\vspace{-0.5ex}]
+
+% List Format Settings
+\usepackage{enumitem}
+\setlist{topsep=0pt}
+\setlist{parsep=0pt}
+% Change the level 2 label item to bullet point
+\renewcommand{\labelitemii}{\raisebox{.2ex}{\textbullet}}
+\newlist{simple_list}{description}{2}
+\setlist[simple_list]{leftmargin=!,font=\bfseries}
+
+% Enable table cells to cover multiple rows
+\usepackage{multirow}
+
+% Margin Settings
+% \usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.5in]{geometry}
+\usepackage[margin=0.75in]{geometry}
+\setlength{\tabcolsep}{0in}
+\setlength{\headheight}{0in}
+% % Backup Margin Settings
+% \newlength{\outerbordwidth}
+% \setlength{\evensidemargin}{-0.25in}
+% \setlength{\headsep}{0in}
+% \setlength{\oddsidemargin}{-0.25in}
+% \setlength{\tabcolsep}{0in}
+% \setlength{\textheight}{9.5in}
+% \setlength{\textwidth}{7in}
+% \setlength{\topmargin}{-0.3in}
+% \setlength{\topskip}{0in}
+% \setlength{\voffset}{0.1in}
+
+% Hyperlink Settings (Note: It should be near the bottom as indicated by
+% documentation)
+\ifpdf
+    \usepackage[pdftex]{hyperref}
+\else\ifxetex
+    \usepackage[xetex]{hyperref}
+\fi\fi
+\hypersetup{hidelinks}
+
+
+%-----------------------------------------------------------
+%Custom commands and definitions
+
+% Create ISO-CPP Standard for printing C++ without \usepackage{relsize}
+\def\CPP{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf++}}}
+% Create ISO-CPP Standard for printing \CPP with \usepackage{relsize}
+% \newcommand\CCP{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\relsize{-3}{\textbf{++}}}}
+
+\newcommand{\school}[5]{\textbf{#1}\hfill\textit{#2}\\#3\hfill#4#5}
+
+\newcommand{\job}[4]{\textbf{#1} #2 \hfill\textit{#3}#4}
+% \textbf{#1} \hfill #2 \hfill {#3} \hfill {#4}
+
+\newcommand{\skill}[2]{\begin{simple_list}[labelwidth=21ex]
+        \item[#1]#2
+    \end{simple_list}
+}
+
+\newcommand{\project}[5]{\textbf{#1} (#2) --- #3\hfill\textit{#4}#5}
+
+\newcommand{\organization}[2]{\textbf{#1}\hfill\textit{#2}}
+
+\newcommand{\award}[2]{\textbf{#1}\hfill\textit{#2}}
+%-----------------------------------------------------------
+\begin{document} % {{{
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcr}
+    \href{https://github.com/firstlast}
+    {\faGithub~github.com/firstlast}&&
+    \hfill  \href{tel:11234567890}{\faPhone~+1 123 456 7890}\\
+
+    \href{https://www.linkedin.com/in/firstlast}
+        {\faLinkedin~linkedin.com/in/firstlast} &
+
+    % \multirow{-2}{*}{\bfseries\LARGE First Last} &
+    \multirow{-2}{*}{\bfseries\fontsize{17.68pt}{0}\selectfont First Last} &
+
+    \href{mailto:mail@firstlast.com}
+    {\faEnvelopeO~mail@firstlast.com}
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt]
+    \item[]
+        \school
+        {Master of Science in Computer Science --- Data Science}
+        {Fall 20XX} % Expected semester you graduate
+        {My University}
+        {GPA:~\textbf{3.9X/4.0}}
+        {%
+            % \begin{itemize}[noitemsep]
+            %     \item Also completed Intelligent Systems track.
+            % \end{itemize}
+
+            % \begin{itemize}[noitemsep]\item\begin{simple_list}[font=\normalfont]
+            %     \item [Courses:]
+            %         Advanced Algorithms,
+            %         Big Data,
+            %         Database Systems,
+            %         Data Structures,
+            %         Deep Learning,
+            %         Machine Learning,
+            % \end{simple_list}\end{itemize}
+        }
+    \item[]
+        \school
+        {Bachelor of Science in Computer Science}
+        {Fall 20XX -- Fall 20XX}
+        {My University}
+        {GPA:~\textbf{3.9X/4.0}}
+        {%
+            % \begin{itemize}[noitemsep]
+            % \item
+            %     \begin{simple_list}[labelwidth=20ex, font=\normalfont]
+            %         \item [Undergrad Courses:] Data Structures, Artificial
+            %             Intelligence, Unix
+            %     \end{simple_list}
+            % \end{itemize}
+        }
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt]
+    \item[] \skill{Languages}{Python (SciKit, Matplotlib, Spark),
+        C/\CPP, Java~(Hadoop), SQL}
+    \item[] \skill{Machine Learning}{Neural Networks, Gradient Boosting, Nearest
+        Neighbors, Clustering, Markov Decision Process
+    }
+    \item[] \skill{Tools}{Git, Amazon Web Services (DynamoDB, Lamdba, \ldots),
+        Linux~(Red Hat, Ubuntu)
+    }
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt]
+    \item[]
+        \job
+        {Computer Science Mentor}
+        {My University}
+        {Jan. 20XX -- Present}
+        {\begin{itemize}
+            \item Hold daily walk-ins and supervise exam reworks for data
+                structures, C/\CPP, Java, etc.\ for 15 students on average.
+            % \item Former co-worker of [Referrer Name] --- A current [Job
+            % Title] at [Company Name]
+        \end{itemize}
+        }
+    \item[]
+        \job
+        {Machine Learning Intern}
+        {Company Name}
+        {Jun. 20XX -- Aug. 20YY}
+        {\begin{itemize}
+            \item Developed an in-house malicious intent identifier by using a
+                gradient boosted classifier, Apache Spark, and Apache Kafka to
+                determine the most likely classification from a continuous
+                stream of data.
+            \item Accomplished the task with 1 month less than planned by
+                employing a scrum-based development cycle to get frequent
+                feedback and maintain a fast-paced development cycle.
+            \item Achieved 97\% and  99\% test accuracy on the generated and
+                real data streams.
+        \end{itemize}
+        }
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt, noitemsep]
+    \item[]
+        \project
+        {Content Evaluator}
+        {Python}
+        {Company Name}
+        {Jan. 20XX -- May 20YY}
+        {%
+            \begin{itemize}
+                \item Preprocessed \& simplified dataset by using OCR, hand
+                    filtering, and automatic filtering using python pandas.
+                \item Utilized Facebook's fasttext library to train a
+                    hierarchical classifier and determine the corresponding
+                    label.
+                \item Achieved a 89\% increased chance of a correct
+                    classification over random guessing using the fasttext
+                    classifier.
+            \end{itemize}
+        }
+    \medskip
+    \item[]
+        \project
+        {Score Predictor}
+        {Python}
+        {Hackathon 20XX}
+        {Nov. 20XX}
+        {%
+            \begin{itemize}
+                \item Achieved 1st place in an artificial intelligence hackathon
+                    by leading a team of 5 to create a program that predicts the
+                    final score of a game before it even starts.
+                \item Reduced 181GB of data by a factor of 100,000 by using
+                    pandas to strip the data to only our necessities.
+                \item Utilized gradient boosting using the XGBoost python
+                    library to predict scores within 10 points on average.
+            \end{itemize}
+        }
+    \medskip
+    \item[]
+        \project
+        {Optimal Policy Finder}
+        {Python}
+        {Machine Learning Course}
+        {Oct. 20XX}
+        {%
+            \begin{itemize}
+                \item Implemented policy iteration to  determine the best action
+                    to take at any state.
+                \item Utilized a Markov Decision Process (MDP) to calculate the
+                    optimal policy at each iteration.
+                \item Optimized the number of required calculations via
+                    memoization to reduce redundancy.
+            \end{itemize}
+        }
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Organizations}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt]
+    \item[]
+        \job
+        {University Tech Organization}
+        {Vice President}
+        {Fall 20XX -- Fall 20YY}
+        {\begin{itemize}
+            \item Oversaw technology team and other committee teams in the
+                nonprofit organization.
+            \item Planned multiple workshops and a hackathon focused on cloud
+                computing to train and evaluate submissions.
+        \end{itemize}
+        }
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Awards and Honors}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}[leftmargin=0pt]
+    \item[]
+        \award
+        {1st Place AI Hackathon --- Score Predictor}
+        {Nov. 20XX}
+    \item[]
+        \award
+        {Undergraduate Dean's List} % No Masters Dean's List exists
+        {Fall 20XX -- Fall 20YY}
+\end{itemize}%}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Miscellaneous Tips/Tricks/Hints}%{{{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Note:} This section should not be in the final version of your resume.
+This section exists only to help you write the above actual sections that you
+will present to companies.
+
+\subsection*{Guidelines for Writing Experience \& Project Bullet Points}
+The first bullet point should effectively be a sales pitch. It should tell me
+why the project worthy of being put on the resume and hook the recruiter into
+what you are capable of doing. After that, provide the details of what you
+worked on.
+
+\medskip
+
+For writing both a good sales pitch bullet point and the following details
+bullet point(s), there are handful of way to writing them. Here are some
+approaches I am aware of:
+
+\begin{enumerate}
+    \item (What did you accomplish?) - (Do you have any numbers to back up the
+        importance of your accomplishment?) - (How did you achieve what you
+        accomplished?)
+    \item (What did you accomplish?) - (What tool/technique(s) did you use?) -
+        (how was the tool/technique(s) used to accomplish the feat?)
+    \item (What did you accomplish?)  - (why did you do it?) - (how did you
+        accomplish it?)
+    \item (What did you accomplish?)  - (how did you accomplish it?)
+\end{enumerate}
+
+The key point is that you always state what you accomplished and how you did it.
+Prefer using approaches 1--3. Use approach 4 as a last resort.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document} % }}}
